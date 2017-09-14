@@ -2,10 +2,10 @@
 
 import math
 def g(x):
-    return ((1/(2*math.pi)**.5)**(-(x**2)/2))
+    return ((1/math.sqrt(2*math.pi))*math.exp(-(x**2)/2))
 
 def interval(f,a,b,dx):
-    n = (b-a)/dx
+    n = int((b-a)/dx)
     return [f(a+i*dx) for i in range(n)]
 
 def integrate(i,dx):
