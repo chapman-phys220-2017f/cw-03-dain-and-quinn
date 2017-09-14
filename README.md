@@ -1,8 +1,8 @@
 # PHYS220 CW 3
 
-**Author(s):** **CHANGEME**
+**Author(s):** Quinn Gates and Dain Miller
 
-[![Build Status](https://travis-ci.org/chapman-phys220-2017f/cw-03-YOURNAME.svg?branch=master)](https://travis-ci.org/chapman-phys220-2017f/cw-03-YOURNAME)
+[![Build Status](https://travis-ci.org/chapman-phys220-2017f/cw-03-dain-and-quinn.svg?branch=master)](https://travis-ci.org/chapman-phys220-2017f/cw-03-dain-and-quinn)
 
 ## Specification
 
