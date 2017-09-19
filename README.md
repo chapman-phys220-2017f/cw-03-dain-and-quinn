@@ -39,7 +39,7 @@ Pro-tip: using git to manage conflicts on Jupyter notebooks is a pain. I recomme
 
 Analyze in this section what you found useful about this assignment in your own words. Include any lingering questions or comments that you may have.
 
-**CHANGEME**
+I really like the nose function cocalc has.  It makes testing so much easier and i can see how it will be helpful as out problems get longer and harder.
 
 ## Honor Pledge
 
@@ -50,4 +50,4 @@ I pledge that all the work in this repository is my own with only the following 
 
 Signed,
 
-**YOURNAME**
+Quinn Gates and Dain Miller
