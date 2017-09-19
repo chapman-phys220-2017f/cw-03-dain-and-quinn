@@ -5,17 +5,16 @@ def g(x):
     return ((1/math.sqrt(2*math.pi))*math.exp(-(x**2)/2))
 
 def interval(f,a,b,dx):
-    n = int((b-a)/dx)
-    return [f(a+i*dx) for i in range(n)]
+    """f must be previously defined.  Gives the y-values of f over interval (a,b) with distance dx between each point"""
+    n = int((b-a)/dx)    
+    return [f(a+i*dx) for i in range(n+1)]
 
 def integrate(i,dx):
+    """Takes the y values from interval then uses the trapazoidal rule to approximate the area beneath the curve"""
     total = 0
     for e in range(len(i)):
-        if (e>=1 and e<len(i)):
-            total+=(2*i[e])
-        elif (e==0 or e==len(i)):
-            total+=i[e]
-        else: total+=0
+        total = total + 2*i[e]
+    total = total- (i[0]+i[-1])
     return (dx*total/2)
 
 
